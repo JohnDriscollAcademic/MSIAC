@@ -7,7 +7,7 @@ import MSIAC
    test_kernel(p)
    type_sol="sin_xpy"
 # we are going to generate a triangular mesh
-   nX = 16 ; nY =5  ;
+   nX = 16 ; nY =16  ;
    xBounds = [0.0,2.0] ; yBounds = [0.0,2.0];
    periodic = true;
    #mf = MSIAC.create_2D_mesh(4,nX,nY,xBounds,yBounds,periodic,"myQuadMesh.txt", structured=true, pert = [0.0,0.0])
